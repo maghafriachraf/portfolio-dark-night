@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- UNICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- SWIPPER CSS -->
+    <link
+      rel="stylesheet"   href="./assets/swiper-bundle.min.css"
+    />
+        <!-- CSS -->
+    <link rel="stylesheet" href="./assets/style.css">
+
+    <title>Portfolio website</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav_logo">MAGHAFRI Achraf</a>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list grid">
+          
+            <li class="nav_item">
+              <a href="#home" class="nav_link ">
+                <i class="uil uil-estate nav_icon"></i>Accueil
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#about" class="nav_link">
+                <i class="uil uil-user nav_icon"></i>A propos
+              </a>
+            </li>
+            
+            <li class="nav_item">
+              <a href="#skills" class="nav_link">
+                <i class="uil uil-file-alt nav_icon"></i>Compétences
+              </a>
+            </li>
+            
+            <li class="nav_item">
+              <a href="#qualification" class="nav_link">
+                <i class="uil uil-check-square nav_icon"></i>Qualifications
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#portfolio" class="nav_link">
+                <i class="uil uil-lightbulb-alt nav_icon"></i>Projets
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#hobbies" class="nav_link">
+                <i class="uil uil-check-square nav_icon"></i>Activités 
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">
+                <i class="uil uil-message nav_icon"></i>Contact
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav_close" id="nav-close"></i>
+        </div>
+
+        <div class="nav_btns">
+
+          <!-- LIGHT/DARK SWICTH -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav_toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- MAIN -->
+<main class="main">
+  <!--==================== HOME ====================-->
+  <section class="home section" id="home">
+      <div class="home_container container grid">
+          <div class="home_content grid">
+              <div class="home_social">
+                  <a href="www.linkedin.com/in/achrafmaghafri" target="_blank" class="home_social-icon">
+                    <i class="uil uil-linkedin"></i>
+                  </a>
+
+                  <a href="https://github.com/Maghafri" target="_blank" class="home_social-icon">
+                    <i class="uil uil-github"></i>
+                  </a>
+              </div>
+
+              <div class="home_img ">
+                <svg class="home_shape" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <mask id="mask0" mask-type="alpha">
+                      <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                      130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                      97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                      0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                  </mask>
+                  <g mask="url(#mask0)">
+                      <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                      165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                      129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                      -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                      <image class="home_shape-img"  xlink:href="data/profil.png"/>
+                  </g>
+              </svg>
+            </div>
+              <div class="home_data">
+                <h1 class="home_title ">Bienvenue !</h1>
+                <h3 class="home_subtitle">Je suis Achraf MAGHAFRI, un Développeur Web Junior</h3>
+                <p class="home_description">Je suis à la recherche de stage d'une durée de 2-3 mois afin d'accrocher ma licence MIAGE.<p class="quote">"Suivre sa passion est la seule voie de libérer sa créativié" </p></p> <br>
+                <a href="#contact" class="button button--flex">
+                  Contact Me <i class="uil uil-message button_icon"></i>
+                </a>
+              </div>
+          </div>
+
+          <div class="home_scroll">
+            <a href="#about" class="home_scroll-button button--flex">
+              <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+                <span class="home_scroll-name">Aller en bas</span>
+                <i class="uil uil-arrow-down home_scroll-arrow"></i>
+              
+            </a>
+          </div>
+      </div>
+  </section>
+
+  <!--==================== ABOUT ====================-->
+  <section class="about section" id="about">
+    <h2 class="section_title">A propos de moi</h2>
+    <span class="section_subtitle">Mon introduction 😊</span>
+      <div class="about_container container grid">
+        <img src="data/port.png" alt="" class="about_img">
+
+        <div class="about_data">
+          <p class="about_description">Actuellement étudiant en licence de MIAGE à l'université de lorraine, je suis très passionné et doué par le domaine de développement Web. Mon objectif professionnel c'est de devenir un développeur web full-stack. Je suis à la recherche de stage de 3-2 mois afin de faire monter mes compétences, acquérir de l'expérience et booster mon profil + accrocher ma licence.
+          </p>
+
+          <div class="about_info">
+            <div>
+              <span class="about_info-title">02</span>
+              <span class="about_info-name">Projets<br>complets</span>
+            </div>
+
+            <div>
+              <span class="about_info-title">02</span>
+              <span class="about_info-name">Projets<br>en cours</span>
+            </div>
+          </div>
+
+          <div class="about_buttons">
+            <a download="" href="data/CV.pdf" target="_blank" class="button button--flex">
+              Télécharger CV<i class="uil uil-import button_icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!--==================== SKILLS ====================-->
+  <section class="skills section" id="skills">
+    <h2 class="section_title">Compétences</h2>
+    <span class="section_subtitle">Mes compétences techniques</span>
+
+    <div class="skills_container container grid">
+      <div>
+        <!-- SKILLS FRONTEND -->
+        <div class="skills_content skills_close">
+          <div class="skills_header">
+            <i class="uil uil-arrow skills_icon"></i>
+
+            <div>
+              <h1 class="skills_titles">FrontEnd dev</h1>
+            </div>
+
+            <i class="uil uil-angle-down skills_arrow"></i>
+          </div>
+
+          <div class="skills_list grid">
+            <div class="skills_data">
+              <div class="skills_titles">
+                <h3 class="skills_name">HTML</h3>
+                <span class="skills_number">90%</span>
+              </div>
+              <div class="skills_bar">
+                <span class="skills_percentage skills_html"></span>
+              </div>
+            </div>
+
+            <div class="skills_data">
+              <div class="skills_titles">
+                <h3 class="skills_name">CSS</h3>
+                <span class="skills_number">80%</span>
+              </div>
+              <div class="skills_bar">
+                <span class="skills_percentage skills_css"></span>
+              </div>
+            </div>
+
+            <div class="skills_data">
+              <div class="skills_titles">
+                <h3 class="skills_name">JavaScript</h3>
+                <span class="skills_number">80%</span>
+              </div>
+              <div class="skills_bar">
+                <span class="skills_percentage skills_js"></span>
+              </div>
+            </div>
+
+            <div class="skills_data">
+              <div class="skills_titles">
+                <h3 class="skills_name">React.js</h3>
+                <span class="skills_number">75%</span>
+              </div>
+              <div class="skills_bar">
+                <span class="skills_percentage skills_react"></span>
+              </div>
+            </div>
+
+            <div class="skills_data">
+              <div class="skills_titles">
+                <h3 class="skills_name">Bootsrap (en cours)</h3>
+                <span class="skills_number">10%</span>
+              </div>
+              <div class="skills_bar">
+                <span class="skills_percentage skills_bootsrap"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SKILLS BACKEND -->
+        <div class="skills_content skills_close">
+          <div class="skills_header">
+            <i class="uil uil-server-network skills_icon"></i>
+            <div>
+              <h1 class="skills_titles">BackEnd dev</h1>
+            </div>
+
+            <i class="uil uil-angle-down skills_arrow"></i>
+          </div>
+
+          <div class="skills_list grid">
+            <div class="skills_data">
+              <div class="skills_titles">
+                <h3 class="skills_name">PhP</h3>
+                <span class="skills_number">70%</span>
+              </div>
+              <div class="skills_bar">
+                <span class="skills_percentage skills_php"></span>
+              </div>
+            </div>
+
+            <div class="skills_data">
+              <div class="skills_titles">
+                <h3 class="skills_name">SQL</h3>
+                <span class="skills_number">90%</span>
+              </div>
+              <div class="skills_bar">
+                <span class="skills_percentage skills_sql"></span>
+              </div>
+            </div>
+
+            <div class="skills_data">
+              <div class="skills_titles">
+                <h3 class="skills_name">Java</h3>
+                <span class="skills_number">75%</span>
+              </div>
+              <div class="skills_bar">
+                <span class="skills_percentage skills_java"></span>
+              </div>
+            </div>
+
+            <div class="skills_data">
+              <div class="skills_titles">
+                <h3 class="skills_name">Python</h3>
+                <span class="skills_pyhton">70%</span>
+              </div>
+              <div class="skills_bar">
+                <span class="skills_percentage skills_python"></span>
+              </div>
+            </div>
+
+            <div class="skills_data">
+              <div class="skills_titles">
+                <h3 class="skills_name">C</h3>
+                <span class="skills_number">80%</span>
+              </div>
+              <div class="skills_bar">
+                <span class="skills_percentage skills_c"></span>
+              </div>
+            </div>
+
+            <div class="skills_data">
+              <div class="skills_titles">
+                <h3 class="skills_name">Node.js (en cours)</h3>
+                <span class="skills_number">25%</span>
+              </div>
+              <div class="skills_bar">
+                <span class="skills_percentage skills_nodejs"></span>
+              </div>
+            </div>
+
+            <div class="skills_data">
+              <div class="skills_titles">
+                <h3 class="skills_name">Symfony (en cours)</h3>
+                <span class="skills_number">10%</span>
+              </div>
+              <div class="skills_bar">
+                <span class="skills_percentage skills_symfony"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SKILLS DESIGN -->
+            <div class="skills_content skills_close">
+              <div class="skills_header">
+                <i class="uil uil-palette skills_icon"></i>               
+                <div>
+                  <h1 class="skills_titles">DESIGN</h1>
+                </div>
+    
+                <i class="uil uil-angle-down skills_arrow"></i>
+              </div>
+    
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">Adobe Photoshop</h3>
+                    <span class="skills_number">80%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_ps"></span>
+                  </div>
+                </div>
+    
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">Adobe After Effects</h3>
+                    <span class="skills_number">60%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_ae"></span>
+                  </div>
+                </div>
+    
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">Adobe UX</h3>
+                    <span class="skills_number">60%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_ux"></span>
+                  </div>
+                </div>
+    
+              </div>
+            </div>
+
+        <!-- SKILLS SE -->
+        <div class="skills_content skills_close">
+          <div class="skills_header">
+            <i class="uil uil-setting skills_icon"></i>
+            <div>
+              <h1 class="skills_titles">Systèmes d'Exploitation</h1>
+            </div>
+
+            <i class="uil uil-angle-down skills_arrow"></i>
+          </div>
+
+          <div class="skills_list grid">
+            <div class="skills_data">
+              <div class="skills_titles">
+                <h3 class="skills_name">Windows</h3>
+                <span class="skills_number">90%</span>
+              </div>
+              <div class="skills_bar">
+                <span class="skills_percentage skills_windows"></span>
+              </div>
+            </div>
+
+            <div class="skills_data">
+              <div class="skills_titles">
+                <h3 class="skills_name">Linux</h3>
+                <span class="skills_number">60%</span>
+              </div>
+              <div class="skills_bar">
+                <span class="skills_percentage skills_linux"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+            <!-- SKILLS CMS -->
+            <div class="skills_content">
+              <div class="skills_header">
+                <i class="uil uil-window-grid skills_icon"></i>    
+                <div>
+                  <h1 class="skills_titles">CMS</h1>
+                </div>
+    
+                <i class="uil uil-angle-down skills_arrow"></i>
+              </div>
+    
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">Wordpress</h3>
+                    <span class="skills_number">50%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_wordpress"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--==================== QUALIFICATION ====================-->
+  <section class="qualification section" id="qualification">
+    <h2 class="section_title">Qualifications</h2>
+    <span class="section_subtitle">Mon parcours scolaire, professionnel & mes certifications</span>
+
+    <div class="qualification_container container">
+      <div class="qualification_tabs">
+        <div class="qualification_button button--flex qualification_active" data-target='#education'>
+          <i class="uil uil-graduation-cap qualification_icon" ></i>
+          Formations
+        </div>
+
+        <div class="qualification_button button--flex" data-target='#experience'>
+          <i class="uil uil-briefcase-alt qualification_icon"></i>
+          Expériences
+        </div>
+
+        <div class="qualification_button button--flex" data-target='#certification'>
+          <i class="uil uil-award qualification_icon"></i>
+          Certifications
+        </div>
+      </div>
+
+      <div class="qualification_sections">
+        <!-- QUALIFICATION contenu 1 -->
+        <div class="qualification_content qualification_active" data-content id='education'>
+           <!-- QUALIFICATION n1 -->
+          <div class="qualification_data">
+            <div>
+              <h3 class="qualification_title">Bac scientifique - Sciences physiques </h3>
+                <span class="qualification_subtitle">Mention : Bien, moyenne : 14.64/20.<br>- Lycee Moulay Idriss, Maroc</span>
+                <div class="qualification_calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2019-2020
+                </div>
+              </div>
+
+              <div>
+                <span class="qualification_rounder"></span>
+                <span class="qualification_line"></span>
+              </div>
+          </div>
+
+                     <!-- QUALIFICATION n2 -->
+          <div class="qualification_data">
+            <div></div>
+            
+            <div>
+              <span class="qualification_rounder"></span>
+              <!-- <span class="qualification_line"></span> -->
+            </div>
+
+            <div>
+              <h3 class="qualification_title">L3 MIAGE</h3>
+                <span class="qualification_subtitle">Méthodes Informatiques Appliquées à la Gestion des Entreprises.<br>- Université Lorraine, France</span>
+                <div class="qualification_calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2020 - 2023 (en cours)
+                </div>
+              </div>
+          </div>
+
+
+
+        </div>
+
+        <!-- QUALIFICATION contenu 2 -->
+        <div class="qualification_content" data-content id='experience'>
+          <!-- QUALIFICATION n1 -->
+         <div class="qualification_data">
+           <div>
+             <h3 class="qualification_title">Stage Développeur Web</h3>
+               <span class="qualification_subtitle"> 
+                <li>Gestion des activités de d'entreprise.</li>
+                <li>Gestion des activités des clients d'entreprise.</li>
+                <li>Tech stacks : HTML, CSS , JS, PHP, SQL. <br>- UFACTORY, Maroc</li>
+                </span>
+               <div class="qualification_calendar">
+                 <i class="uil uil-calendar-alt"></i>
+                 Juin 2021 - Aoùt 2021
+               </div>
+             </div>
+
+             <div>
+               <span class="qualification_rounder"></span>
+               <!-- <span class="qualification_line"></span> -->
+             </div>
+         </div>
+
+
+       </div>
+
+            <!-- QUALIFICATION contenu 3 -->
+        <div class="qualification_content" data-content id='certification'>
+           <!-- QUALIFICATION n1 -->
+          <div class="qualification_data">
+            <div>
+              <h3 class="qualification_title">JavaScript</h3>
+                <span class="qualification_subtitle">CT-9XDSUXZJ - Délivré par SoloLearn<br><a class="certif" target="_blank" href="https://www.sololearn.com/certificates/CT-9XDSUXZJ">En savoir plus</a></span>
+                <div class="qualification_calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2022
+                </div>
+              </div>
+
+              <div>
+                <span class="qualification_rounder"></span>
+                <span class="qualification_line"></span>
+              </div>
+          </div>
+
+                     <!-- QUALIFICATION n2 -->
+          <div class="qualification_data">
+            <div></div>
+            
+            <div>
+              <span class="qualification_rounder"></span>
+              <span class="qualification_line"></span>
+            </div>
+
+            <div>
+              <h3 class="qualification_title">PHP</h3>
+                <span class="qualification_subtitle">CT-F2LL3PHZ - Délivré par SoloLearn <br><a class="certif" target="_blank" href="https://www.sololearn.com/certificates/CT-F2LL3PHZ">En savoir plus</a></span>
+                <div class="qualification_calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2022
+                </div>
+              </div>
+          </div>
+
+                   <!-- QUALIFICATION n3 -->
+          <div class="qualification_data">
+            <div>
+              <h3 class="qualification_title">Écrivez du JavaScript pour le web</h3>
+                <span class="qualification_subtitle">XXXXXXX - Délivré par OpenClassRooms<br><a class="certif" target="_blank" href="https://www.sololearn.com/certificates">En savoir plus</a></span>
+                <div class="qualification_calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2022
+                </div>
+              </div>
+
+              <div>
+                <span class="qualification_rounder"></span>
+                <span class="qualification_line"></span>
+              </div>
+          </div>
+
+          <!-- QUALIFICATION n4 -->
+          <div class="qualification_data">
+            <div></div>
+            
+            <div>
+              <span class="qualification_rounder"></span>
+              <!-- <span class="qualification_line"></span> -->
+            </div>
+
+            <div>
+              <h3 class="qualification_title">React.js</h3>
+                <span class="qualification_subtitle">XXXXXXX - Délivré par OpenClassRooms<br><a class="certif" target="_blank" href="https://www.sololearn.com/certificates">En savoir plus</a></span>
+                <div class="qualification_calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2023
+                </div>
+              </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--==================== PORTFOLIO ====================-->
+  <section class="portfolio section" id="portfolio">
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section_title">Projets</h2>
+      <span class="section_subtitle">Les travaux les plus récents</span>
+
+      <div class="portfolio_container container swiper-container">
+        <div class="swiper-wrapper">
+            <!--==================== PORTFOLIO 1 ====================-->
+            <div class="portfolio_content grid swiper-slide">
+              <img src="data/uno.jpg" alt="" class="portfolio_img"></img>
+              
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">Projet Uno</h3>
+                <p class="portfolio_description">Programmer le jeu de cartes UNO en utilisant un langage de programmation POO : JAVA.</p>
+                <a href="https://github.com/Maghafri/cartes-UNO" target="_blank" class="button button--flex button--small portfolio_button">
+                  Demo
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2 ====================-->
+            <div class="portfolio_content grid swiper-slide">
+              <img src="data/votelec.png" alt="" class="portfolio_img"></img>
+              
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">Votelec</h3>
+                <p class="portfolio_description">Création d'une plateforme en ligne d’élections en utilisant les technologies du programmation web suivantes : HTML5, CSS3, JS, JSON, jQuery, PHP7, SQL.</p>
+                <a href="https://github.com/Maghafri/Votelec" target="_blank" class="button button--flex button--small portfolio_button">
+                  Demo
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 3 ====================-->
+            <div class="portfolio_content grid swiper-slide">
+              <img src="data/PL.png" alt="" class="portfolio_img"></img>
+              
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">Plantero</h3>
+                <p class="portfolio_description">Création du FrontEnd pour une boutique électronique de plantes en utilisant : HTML5, CSS3, JS, React.</p>
+                <a href="https://github.com/Maghafri/Plantero" target="_blank" class="button button--flex button--small portfolio_button">
+                  Demo
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 4 ====================-->
+            <div class="portfolio_content grid swiper-slide">
+              <img src="data/snake.png" alt="" class="portfolio_img"></img>
+              
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">Snake killer</h3>
+                <p class="portfolio_description">Programmer un jeu du Snake en utilisant : HTML5, CSS3, JS, jQuery.</p>
+                <a href="https://github.com/Maghafri/Snake-killer" target="_blank" class="button button--flex button--small portfolio_button">
+                  Demo
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+            
+        </div>
+
+        <!-- add arows & pagination-->
+        <div class="swiper-button-next">
+          <i class="uil uil-angle-right swiper-portfolio-icon"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="uil uil-angle-left swiper-portfolio-icon"></i>
+        </div>
+        <div class="swiper-pagination"></div>
+
+      </div>
+
+    </section>
+  </section>
+
+
+  <!--==================== ACTIVITES ====================-->
+  <section class="hobbies section" id="hobbies">
+    <h2 class="section_title">Activités</h2>
+    <span class="section_subtitle">Centres d'intérêt & Engagement Citoyen</span>
+
+    <div class="hobbies_container container grid">
+
+                <!--==================== ACTIVITES 1 ====================-->
+
+        <div class="hobbies_content">
+          <div>
+            <i class="uil uil-users-alt hobbies_icon"></i>
+            <h3 class="hobbies_title">Bénévolat</h3>
+          </div>
+            <span class="button button--flex button--small button--link hobbies_button">
+              En savoir plus
+              <i class="uil uil-arrow-right button_icon"></i>
+            </span>
+
+            <div class="hobbies_modal">
+              <div class="hobbies_modal-content">
+                <h4 class="hobbies_modal-title">Bénévolat</h4>
+                <i class="uil uil-times hobbies_modal-close"></i>
+                <li class="hobbies_description">Je fais de la Composition musicale, Mixage audio depuis 2 ans, je l'ai appris par moi-même à travers des vidéos sur internet, ce qui m'a permet d'être autonome.
+                </li>
+              </div>
+            </div>
+        </div>
+
+                <!--==================== ACTIVITES 2 ====================-->
+        <div class="hobbies_content">
+          <div>
+            <i class="uil uil-music hobbies_icon"></i>
+            <h3 class="hobbies_title">Composition musicale & Mixage audio</h3>
+          </div>
+            <span class="button button--flex button--small button--link hobbies_button">
+              En savoir plus
+
+              <i class="uil uil-arrow-right button_icon"></i>
+            </span>
+
+            <div class="hobbies_modal">
+              <div class="hobbies_modal-content">
+                <h4 class="hobbies_modal-title">Composition musicale & Mixage audio</h4>
+                <i class="uil uil-times hobbies_modal-close"></i>
+                <li class="hobbies_description">Je fais de la Composition musicale, Mixage audio depuis 2 ans, je l'ai appris par moi-même à travers des vidéos sur internet, ce qui m'a permet d'être autonome.
+                </li>
+              </div>
+            </div>
+        </div>
+
+        
+                <!--==================== ACTIVITES 3 ====================-->
+        <div class="hobbies_content">
+          <div>
+            <i class="uil uil-football hobbies_icon"></i>
+            <h3 class="hobbies_title">Football </h3>
+          </div>
+            <span class="button button--flex button--small button--link hobbies_button">
+              En savoir plus
+              <i class="uil uil-arrow-right button_icon"></i>
+            </span>
+
+            <div class="hobbies_modal">
+              <div class="hobbies_modal-content">
+                <h4 class="hobbies_modal-title">Football</h4>
+                <i class="uil uil-times hobbies_modal-close"></i>
+                <li class="hobbies_description">Je joue le Football depuis mon enfance, et je l'ai pratiqué au sein d'un club où j'ai appris l'esprit d'équipe et la compétitivité.
+                </li>
+              </div>
+            </div>
+        </div>
+    </div>
+     
+  </section>
+  
+  <!--==================== CONTACT ME ====================-->
+  <section class="contact section" id="contact">
+    <h2 class="section_title">Contact</h2>
+    <span class="section_subtitle">Mes Coordonnées</span>
+
+    <div class="contact_container container grid">
+      <div>
+        <div class="contact_information">
+          <i class="uil uil-phone contact_icon"></i>
+          <div>
+            <h3 class="contact_title">N° de téléphone</h3>
+            <span class="contact_subtitle">+33 (0) 7 49 39 40 22</span>
+          </div>
+        </div>
+
+        <div class="contact_information">
+          <i class="uil uil-envelope contact_icon"></i>
+          <div>
+            <h3 class="contact_title">Adresse électronique</h3>
+            <span class="contact_subtitle">maghafriachraf@gmail.com</span>
+          </div>
+        </div>
+
+        <div class="contact_information">
+          <i class="uil uil-map-marker-alt contact_icon"></i>
+          <div>
+            <h3 class="contact_title">Adresse postale</h3>
+            <span class="contact_subtitle">28 rue Aristide Briand, Laxou 54520, France</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+
+<!--==================== FOOTER ====================-->
+<footer class="footer">
+  <div class="footer_bg">
+    <div class="footer_container container grid">
+      <div>
+        <h1 class="footer_title">A.Maghafri</h1>
+        <span class="footer_subtitle">Junior web developer</span>
+      </div>
+
+      <ul class="footer_links">
+        <div>
+        <li>
+          <a href="#home" class="footer_link">Accueil</a>
+        </li>
+        <li>
+          <a href="#about" class="footer_link">About me</a>
+        </li>
+        <li>
+          <a href="#skills" class="footer_link">Compétences</a>
+        </li>
+      </div>
+      <div>
+        <li>
+          <a href="#qualifications" class="footer_link">Qualifications</a>
+        </li>
+        <li>
+          <a href="#portfolio" class="footer_link">Portfolio</a>
+        </li>
+      </div>
+      <div>
+        <li>
+          <a href="#hobbies" class="footer_link">Activités</a>
+        </li>
+        <li>
+          <a href="#contact" class="footer_link">Contact </a>
+        </li>
+      </div>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<!--==================== SCROLL TOP ====================-->
+
+<a href="#home" class="scrollup" id="scroll-up">
+  <i class="uil uil-arrow-up scrollup_icon"></i>
+</a>
+
+<!--==================== SWIPER JS ============= =======-->
+<script src="./js/swiper-bundle.min.js"></script>
+
+<!-- main js  -->
+  <script src="./js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  </body>
+</html>
