@@ -86,7 +86,7 @@ body.dark-theme{
 }
 
 .change-theme{
-  font-size: 1.25rem;
+  font-size: 3rem;
   color: var(--title-color);
   margin-right: var(--mb-1);
   cursor: pointer;
@@ -443,6 +443,7 @@ font-weight: var(--font-medium);
 /*==================== SKILLS ====================*/
 .skills_container{
   row-gap: 0;
+  
 }
 
 .skills_header{
@@ -1063,7 +1064,7 @@ justify-self: center;
   }
 
   .change-theme{
-    margin: 0;
+    margin: 10px;
   }
 
   .home_container{
